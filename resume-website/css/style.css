@@ -62,7 +62,7 @@ html,body {
 footer {
     width: 100%;
     background-color: #23415c;
-    padding: 1.5%;
+    padding: 0.9%;
     color: #FFF;
 }
 
@@ -218,6 +218,98 @@ h1{
                                             border-radius: 100%;
                                             border: 5px solid lightgrey;
                                             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- contact-form --*/ 
+ .contact{
+
+         background: url(../img/panorama-3new.png) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+     
+
+ }
+.contactme{
+  text-align: center;
+    vertical-align: middle;
+  width: 100%;
+  background:;
+  padding: 40px 40px;
+  color: #23415C
+  font-weight: bold;
+}
+.contact-left {
+    padding: 0;
+} 
+.contact input[type="text"],.contact input[type="email"] {
+    width: 100%;
+    color: white;
+    float: left;
+    background:#23415C ;
+    outline: none;
+    font-size: 1em;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+    border: solid 1px #23415C;
+
+    display: inline-block;
+}
+.contact textarea {
+    resize: none;
+    width: 100%;
+    background:#23415C ;
+    color: white;
+    font-size: 1em;
+    outline: none;
+    padding: 1em .8em;
+    border: solid 1px #23415C;
+    min-height: 12.5em;
+
+    
+
+}
+.contact input[type="submit"] {
+    outline: none;
+    color: #fff;
+    padding: .5em 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    -webkit-appearance: none;
+    background: #23415C;
+    border: 1px solid #23415C;
+
+    transition: 0.5s all;
+    /* width: 100%; */
+    float: right;
+    letter-spacing: 1px;
+}
+.contact input[type="text"]:focus,.contact input[type="email"]:focus,.contact textarea:focus {
+    border-color: #23415C;
+}
+.contact input[type="submit"]:hover {
+    background: none;
+    color: #23415C;
+    border-color: #23415C;
+}
+::-webkit-input-placeholder {
+	color:#fff !important;
+ 
+}
 
 
 
