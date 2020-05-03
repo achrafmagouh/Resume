@@ -5,8 +5,9 @@ html,body {
 
 .navbar {
     background-color: #23415c;
-    padding: 1% 0;
+    padding: 1% 10%;
     font-size: 1.2em;
+    box-shadow: 2px 2px 12px;
 }
 
 .navbar-brand {
@@ -15,7 +16,7 @@ html,body {
 }
 
 .navbar-default .navbar-nav li a {
-    color:#FFF;
+    color:lightgray;
 }
 
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a active {
@@ -309,8 +310,8 @@ h1{
 
 
 .contact input[type="submit"] {
-    background: none;
-    color: #23415C;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
     border-color: #23415C;
 }
 
@@ -333,13 +334,19 @@ h1{
     border-color: #23415C;
 }
 
+
+
 /*
 .contact input[type="submit"]:hover {
     background: none;
-    color: #23415C;
+    color: white;
     border-color: #23415C;
 }
 */
+
+
+
+
 ::-webkit-input-placeholder {
 	color:#fff !important;
  

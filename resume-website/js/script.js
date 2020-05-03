@@ -9,10 +9,10 @@ var form = document.querySelector('.contact-form')
 function checkInput() {
     if (inputName.value.trim() !== "" && regEx.test(inputMail.value) && inputMessage.value.trim() !== "") {
         submitButton.style.backgroundColor = 'none';
-        submitButton.disabled = false;
+        submitButton = false;
     } else {
         submitButton.style.backgroundColor = '#23415C';
-        submitButton.disabled = true;
+        submitButton = true;
     }
 }
 
