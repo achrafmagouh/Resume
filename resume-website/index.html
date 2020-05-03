@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="css/style.css" rel="stylesheet" />
-  <script src="js/download-file.js"></script>
+ 
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/achraf-logo2.png"></a>
+            <a class="navbar-brand" href="#"><img src="img/achraf-logo3.png"></a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-main">
                 <ul class="nav navbar-nav navbar-right">
@@ -40,6 +40,7 @@
             </div>
             
       </div>
+     
    </nav>
    
    <!--   FIST STEP : FINISHED NAVBAR-->
@@ -221,22 +222,24 @@
  
  
  
-	 <div class="contact" id="contact">
+	 <div class="contact" >
 	<div class="container">
-		<div class="w3ls-heading">
-			<h3 class=contactme>Contact me</h3>
+		<div class="heading">
+			<h3 class=contact-me>Contact Me</h3>
 		</div>
-			<div class="contact-w3ls">
+			<div class="contact-form">
 				<form action="#" method="post">
 					<div class="col-md-7 col-sm-7 contact-left">
-						<input type="text" name="First Name" placeholder="Name" required="">
-						<input type="email"  class="email" name="Email" placeholder="Email" required="">
-						<input type="text" name="Number" placeholder="Mobile Number" required="">
+						<input id="input-name" type="text" name="First Name" placeholder="Name" required="" oninput="checkInput()">
+						<input id="input-mail" type="email"  class="email" name="Email" placeholder="Email" required="" oninput="checkInput()">
+						<input id="input-phone" type="text" name="Number" placeholder="Phone Number"  required="" oninput="checkInput()">
 						<!-- <input type="text" class="email" name="Last Name" placeholder="Last Name" required=""> -->
 					</div> 
 					<div class="col-md-5 col-sm-5 contact-right">
-						<textarea name="Message" placeholder="Message" required=""></textarea>
-						<input type="submit" value="Submit">
+					<div class="message-text" id="input-message">
+						<textarea name="Message" placeholder="Message" required="" oninput="checkInput()"></textarea>
+				    </div>
+						<input type="submit" class="submit-button" value="Submit" disabled >
 					</div>
 					<div class="clearfix"> </div> 
 				</form>
@@ -274,6 +277,9 @@
    </footer>
    
     </div>
+    
+    
+    <script src="js/script.js"></script>
     
     
     

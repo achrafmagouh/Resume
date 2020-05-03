@@ -244,13 +244,11 @@ h1{
 
  }
 .contactme{
+  padding: 30px;
   text-align: center;
-    vertical-align: middle;
-  width: 100%;
-  background:;
-  padding: 40px 40px;
-  color: #23415C
-  font-weight: bold;
+  background: none;
+  color: #23415C;
+  font-size: 30px;
 }
 .contact-left {
     padding: 0;
@@ -268,6 +266,14 @@ h1{
 
     display: inline-block;
 }
+
+
+.message-text :hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-color: #23415C;
+}
+
 .contact textarea {
     resize: none;
     width: 100%;
@@ -279,9 +285,11 @@ h1{
     border: solid 1px #23415C;
     min-height: 12.5em;
 
-    
-
 }
+
+
+
+
 .contact input[type="submit"] {
     outline: none;
     color: #fff;
@@ -289,23 +297,49 @@ h1{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1em;
-    -webkit-appearance: none;
+    
     background: #23415C;
     border: 1px solid #23415C;
 
     transition: 0.5s all;
-    /* width: 100%; */
+     width: 100%; 
     float: right;
     letter-spacing: 1px;
 }
-.contact input[type="text"]:focus,.contact input[type="email"]:focus,.contact textarea:focus {
+
+
+.contact input[type="submit"] {
+    background: none;
+    color: #23415C;
     border-color: #23415C;
 }
+
+
+
+
+
+
+
+.contact input[type="email"]:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-color: #23415C;
+}
+
+
+.contact input[type="text"]:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-color: #23415C;
+}
+
+/*
 .contact input[type="submit"]:hover {
     background: none;
     color: #23415C;
     border-color: #23415C;
 }
+*/
 ::-webkit-input-placeholder {
 	color:#fff !important;
  
