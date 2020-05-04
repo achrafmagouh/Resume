@@ -239,15 +239,27 @@
 					<div class="message-text" id="input-message">
 						<textarea name="Message" placeholder="Message" required="" oninput="checkInput()"></textarea>
 				    </div>
-						<input type="submit" class="submit-button" value="Submit" >
+						<input type="submit" class="submit-button" value="Submit" onsubmit="return validateForm()" >
 					</div>
+					
+               <div>
+              <p>Alert<p>
+              <div class="alert alert-success">
+                <strong>Success!</strong> The form has been submitted!
+                   </div>
+                   </div>
+                
+                
 					<div class="clearfix"> </div> 
 				</form>
 			</div>  
 
 	</div>
 </div>
+
 <!-- //contact -->
+                   
+                   
                     
                     
                     

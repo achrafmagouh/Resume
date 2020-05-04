@@ -5,7 +5,7 @@ html,body {
 
 .navbar {
     background-color: #23415c;
-    padding: 1% 10%;
+    padding: 1% 5%;
     font-size: 1.2em;
     box-shadow: 2px 2px 12px;
 }
@@ -233,6 +233,7 @@ h1{
 
 
 /*-- contact-form --*/ 
+
  .contact{
 
          background: url(../img/panorama-3new.png) no-repeat center center fixed;
@@ -336,14 +337,11 @@ h1{
 
 
 
-/*
 .contact input[type="submit"]:hover {
     background: none;
     color: white;
     border-color: #23415C;
 }
-*/
-
 
 
 
