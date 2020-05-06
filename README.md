@@ -1,2 +1,2 @@
-# Code Louisville Project Graduation
-Resume Website
+# Code Louisville final Project for Web Development
+Achraf Magouh's Resume Website
