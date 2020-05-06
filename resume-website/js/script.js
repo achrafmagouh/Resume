@@ -10,12 +10,12 @@ var form = document.querySelector('.contact-form')
 
 function checkInput() {
     if (inputName.value.trim() !== "" && regEx.test(inputMail.value) && inputMessage.value.trim() !== "") {
-        submitButton.style.backgroundColor = 'none';
-        submitButton = false;
+        submitForm.style.backgroundColor = '#23415C';
+        submitForm.disabled = false;
     } else {
-        submitButton.style.backgroundColor = '#23415C';
-        submitButton = true;
-    }
+       submitForm.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+       submitForm.disabled = true;
+   }
 }
 
 
@@ -25,14 +25,6 @@ form.addEventListener('submit', function(event){
 })
 
 
-//$(document).ready(function(){
-//    $('#submit-form').bind('click', function (event){
-//        if (event.type == "click")
-//        $('#submit-result').html('Button Clicked');
-//    } else {
-//            $(this).removeClass('alert alert-success');
-//                           })
-//})
 
 
     $(document).ready (function() {
@@ -41,7 +33,7 @@ form.addEventListener('submit', function(event){
             
             setTimeout(function () {
                 $('#submit-result').hide('fade');
-        }, 2000);
+        }, 3000);
         });
 
         $('#linkClose').click(function () {
@@ -53,21 +45,3 @@ form.addEventListener('submit', function(event){
 
 
 
-
-
-
-
-//
-//
-//$(document).ready(function() {
-//  $("form").submit(function(event){
-//    event.preventDefault();
-//    inputName = $("#input-name").val();
-//    inputMail = $("#input-mail").val();
-//    inputPhone  = $("#input-phone").val();
-//    inputMessage = $("#input-message").val();
-//    submitButton = $("#input-message").val();
-//      $(".contact-form")
-//    
-//});
-//                  });

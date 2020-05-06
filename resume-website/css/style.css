@@ -206,28 +206,14 @@ h1{
 
 
 
-
-
-
-
-
-                                            .profile-photo {
-                                              margin-left: auto;
-                                              margin-right: auto;
-                                              width: 50%;
-                                              display:block;
-                                            border-radius: 100%;
-                                            border: 5px solid lightgrey;
-                                            }
-
-
-
-
-
-
-
-
-
+.profile-photo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display:block;
+    border-radius: 100%;
+    border: 5px solid lightgrey;
+  }
 
 
 
@@ -236,7 +222,7 @@ h1{
 
  .contact{
 
-         background: url(../img/panorama-3new.png) no-repeat center center fixed;
+ background: url(../img/panorama-3new.png) no-repeat center center fixed;
     display: table;
     height: 60%;
     position: relative;
@@ -297,7 +283,7 @@ h1{
     color: #fff;
     padding: .5em 2em;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 1em;
     
     background: #23415C;
@@ -337,11 +323,13 @@ h1{
 
 
 
+/*
 .contact input[type="submit"]:hover {
     background: none;
     color: white;
     border-color: #23415C;
 }
+*/
 
 
 
