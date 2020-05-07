@@ -278,7 +278,7 @@ h1{
 
 
 
-.contact input[type="submit"] {
+.contact button[type="submit"] {
     outline: none;
     color: #fff;
     padding: .5em 2em;
@@ -296,7 +296,7 @@ h1{
 }
 
 
-.contact input[type="submit"] {
+.contact button[type="submit"] {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     border-color: #23415C;
